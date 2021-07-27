@@ -1,0 +1,13 @@
+{
+  "include": ["./src/**/*"],
+
+  "compilerOptions": {
+    // "outDir": "./dist", //打包到dist目录下
+    "module": "es2015", //遵循ES module
+    "target": "es2015", //最终转换成es5
+    "strict": true,
+    "allowJs": true, //允许引入js代码
+    "noEmitOnError": true, //ts报错的时候不打包
+    "moduleResolution": "node"
+  }
+}
